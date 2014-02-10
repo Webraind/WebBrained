@@ -1,0 +1,82 @@
+* {
+border-radius: 5px;
+}
+body{
+background-color: #D0D0D2;
+min-width:960px;
+}
+#header{
+z-index:1;
+position: fixed;
+height: 70px;
+width: 99%;
+margin-top: -120px;
+background-color: #3b7b99;
+margin-bottom: 15px;
+}
+
+#header p{
+float:right;
+margin-top: -40px;
+}
+
+.login{
+position: relative;
+height: 150px;
+width: 18%;
+background-color: #FF9F5F;
+margin-top: 120px;
+margin-left: 40%;
+font-family: Gotham light;
+color: #ffffff;
+
+
+}
+.login input{
+height: 20px;
+width: 200px;
+font-family: Gotham light;
+font-size:15px;
+}
+.login table{
+
+margin-left: 30px;
+padding: 20px;
+
+}
+.login table span{
+color: #000000;
+}
+.login #button{
+text-align: center;
+height: 30px;
+width: 80px;
+background-color: #3b7b99;
+border: 1px solid #2E4444;
+font-family: Gotham light;
+font-size: 15px;
+}
+
+.login ul{
+
+color: #000000;
+font-size: 12px;
+width: 400px;
+margin-top: -30px;
+margin-left: -35px;
+}
+.login li{
+display:inline;
+padding: 5px;
+}
+.login li span{
+
+color: blue;
+}
+
+.login li a{
+text-decoration: none;
+}
+.login li a:hover{
+font-weight: bold;
+}
